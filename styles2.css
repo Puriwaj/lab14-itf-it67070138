@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile {
+    width: 183px;
+    height: 183px;
+    background-color: #CCCCFF;
+    background-image: url(https://media.tenor.com/meZiCF6wF90AAAAd/newjeans-newjeans-bunny.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.notify {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.username {
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.inputs {
+    margin: 10px 0;
+}
+
+.phone-number-list {
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="tel"] {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f8f8f8;
+}
